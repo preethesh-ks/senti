@@ -10,12 +10,12 @@ app = Flask(__name__)
 @app.route('/',methods=["GET","POST"])
 def main():
     if request.method == "POST":
-        inp = request.method
+        inp = request.form.get("inp")
         sid = SentimentIntensityAnalyzer()
         score = sid.polarity_scores(inp)
         
-        if score["neg"] !=0:
-            return render_template('home.html', message="NEGETIVE")
+        if score["neg"] != 0:
+            return render_template('home.html', message="Entered text is : NEGETIVE")
         else:
-            return render_template('home.html', message="POSITIVE")
+            return render_template('home.html', message="Entered text is : POSITIVE")
     return render_template('home.html')

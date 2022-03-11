@@ -1,4 +1,31 @@
 .bg{
-    background-color: black;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(105, 105, 108, 1) 36%, rgba(0, 142, 255, 1) 100%);
 
 }
+.containers {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  color: antiquewhite;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+}
+.head{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    font-family: 'Stylish',sans-serif;
+    font-size: 100px;
+}
+.output{
+    font-family: 'Josefin Sans',sans-serif;
+    color: antiquewhite;
+}
+/* .box{
+    size: 50px;
+} */
