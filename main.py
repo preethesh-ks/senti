@@ -14,11 +14,24 @@ def main():
         sid = SentimentIntensityAnalyzer()
         score = sid.polarity_scores(inp)
         
-        if score["neg"] != 0:
+        if not inp:
+            return render_template('home.html', message="Please enter sentence/text")
+        
+        elif score["neg"] != 0:
             return render_template('home.html', message="Entered sentence is : NEGETIVE 🥲")
         else:
             return render_template('home.html', message="Entered sentence is : POSITIVE 😃")
+        
     return render_template('home.html')
+def emp():
+    if request.method == "POST":
+        inp = request.form.get("inp")
+        if inp:
+            print("empty")
+        else:
+            return render_template('home.html', message="empty field")
+                
+    
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0', port=5000)
