@@ -2,7 +2,7 @@ from crypt import methods
 from email import message
 from flask import Flask, render_template,request
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-import nltk
+import nltk 
 nltk.download('vader_lexicon')
 
 app = Flask(__name__)
@@ -19,3 +19,6 @@ def main():
         else:
             return render_template('home.html', message="Entered sentence is : POSITIVE 😃")
     return render_template('home.html')
+
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0', port=5000)
