@@ -15,7 +15,7 @@ def main():
         score = sid.polarity_scores(inp)
         
         if score["neg"] != 0:
-            return render_template('home.html', message="Entered text is : NEGETIVE")
+            return render_template('home.html', message="Entered sentence is : NEGETIVE 🥲")
         else:
-            return render_template('home.html', message="Entered text is : POSITIVE")
+            return render_template('home.html', message="Entered sentence is : POSITIVE 😃")
     return render_template('home.html')
