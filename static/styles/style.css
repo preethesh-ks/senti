@@ -21,12 +21,16 @@
       align-items: center;
     font-family: 'Stylish',sans-serif;
     font-size: 100px;
+    color: black;
+    width: auto;
 }
 .output{
     font-family: 'Josefin Sans',sans-serif;
     color:#77ACF1;
-    margin-top: 100px;
-    margin-left: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 /* .box{
     size: 50px;
