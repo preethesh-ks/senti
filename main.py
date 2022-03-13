@@ -19,6 +19,9 @@ def main():
         
         elif score["neg"] != 0:
             return render_template('home.html', message="Entered sentence is : NEGETIVE 🥲")
+        elif score["neg"] == 0:
+            return render_template('home.html', message="Entered sentence is : NEUTRAL 😐")
+            
         else:
             return render_template('home.html', message="Entered sentence is : POSITIVE 😃")
         

@@ -1,44 +1,48 @@
-.bg{
+.bg {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(105, 105, 108, 1) 36%, rgba(0, 142, 255, 1) 100%);
     text-align: center;
 }
+
 .containers {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
 }
-.btn{
+
+.btn {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     width: 400px;
 }
-.head{
-      /* display:flex;
+
+.head {
+    /* display:flex;
       justify-content: center;
       align-items: center;
      font-family: 'Stylish',sans-serif;
      font-size: 6.25rem;
      color: black;
      width: auto; */
-          font-family: 'Stylish',
-          sans-serif;
-     font-size: 6rem;
-     line-height: 1.5;
+    font-family: 'Stylish',
+        sans-serif;
+    font-size: 6rem;
+    line-height: 1.5;
 }
-.output{
-    font-family: 'Josefin Sans',sans-serif;
-    color:#77ACF1;
-    display:flex;
+
+.output {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #77ACF1;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
 }
-input
-{
-    
+
+input {
+
     /* width:100%; */
     /* margin-left: 30px;
     padding-left: 10px; */
@@ -46,16 +50,17 @@ input
     width:30rem;
     margin-left: 50px;
     height:3.125rem; */
-   
+
     border: none;
-    color:#fff;
-    border:#83bbd9 1px solid;
-    width:100%;
-    font:normal 12px/26px Arial,
-    Helvetica,
-    sans-serif;
-    
+    color: #fff;
+    border: #83bbd9 1px solid;
+    width: 100%;
+    font: normal 12px/26px Arial,
+        Helvetica,
+        sans-serif;
+
 }
+
 /* .box{
     size: 50px;
 } */
@@ -78,9 +83,10 @@ input
     font-size: 1.2rem;
     font-family: 'ubuntu';
 }
-.centi{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      width: auto;
+
+.centi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
