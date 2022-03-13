@@ -27,9 +27,10 @@ def emp():
     if request.method == "POST":
         inp = request.form.get("inp")
         if inp:
-            print("empty")
+            print("entered")
         else:
-            return render_template('home.html', message="empty field")
+            print("empty value")
+           
                 
     
 
