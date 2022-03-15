@@ -50,11 +50,11 @@ input {
     width:30rem;
     margin-left: 50px;
     height:3.125rem; */
-
+    box-sizing: border-box;
     border: none;
     color: #fff;
     border: #83bbd9 1px solid;
-    width: 100%;
+    width: 75%;
     font: normal 12px/26px Arial,
         Helvetica,
         sans-serif;
