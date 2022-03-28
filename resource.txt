@@ -1,0 +1,22 @@
+new things learnt:
+      * workin of git
+      *  linking python project to html or website
+      *  using of diffrent modules to automate task
+      *  flask
+      *   docker file
+      *   handling modules in an python app
+      *   send and recive information from web to app vice versa
+      *   Server Hosting
+      *   html css
+
+reference(mix match )
+  * nltk module and flask module tutorial link:   https://www.youtube.com/watch?v=RPU11g-0ByE&list=LL&index=2
+  * dockerise flask app link : https://www.youtube.com/watch?v=dg_3RgiUgXY&list=LL&index=1  
+  *several weppages :dont remember :-) 
+
+changes :
+   * added neutral text
+   * created full html css file from scratch
+   * dockerised app to make app run on online servers easily
+   *  server used to host app : https://caprover.com/
+   * added credits in weppages
